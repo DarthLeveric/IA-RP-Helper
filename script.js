@@ -1,5 +1,5 @@
-const noteStorageToken = "SWTOR[IE]Notes";
-const sectionStorageToken = "SWTOR[IE]Sections";
+const noteStorageToken = "SWTOR[IA]Notes";
+const sectionStorageToken = "SWTOR[IA]Sections";
 
 var inputText = document.getElementById("inputText");
 var outputText = document.getElementById("outputText");
