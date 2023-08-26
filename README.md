@@ -1,2 +1,2 @@
-# imperial-equinox-helper
-A simple helper page for SWTOR RP.
+# IA-RP-Helper
+A helper page for RP.
