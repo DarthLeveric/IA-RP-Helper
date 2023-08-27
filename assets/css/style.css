@@ -210,44 +210,6 @@ textarea {
 	padding: 4px 8px;
 }
 
-#guildDocs {
-	align-items: flex-start;
-	counter-reset: documents 1;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	height: 400px;
-}
-
-#guildDocs a {
-	counter-increment: documents;
-}
-
-#guildDocs > div {
-	margin-left: 50px;
-	position: relative;
-}
-
-#guildDocs > div:not([subItem]):not([spacer])::before {
-	content: counter(documents) ': ';
-	position: absolute;
-	right: calc(100% + 4px);
-}
-
-#guildDocs > div[spacer] {
-	font-style: italic;
-	font-weight: bold;
-	margin: 4px 0px 0px 20px;
-}
-
-#guildDocs > div[subItem]::before {
-	content: '- ';
-}
-
-#guildDocs > h4 {
-	margin: 12px 0px 4px 8px;
-}
-
 #emoteTable {
 	align-items: flex-start;
 	display: flex;
